@@ -1,8 +1,8 @@
 <p>
-  <img width="100%" src="https://raw.githubusercontent.com/solidjs/templates/master/banner.png" alt="Solid Vite Templates">
+  <img width="100%" src="https://raw.githubusercontent.com/ionic-team/capacitor-solidjs-templates//master/banner.png" alt="Solid And Capacitor Vite Templates">
 </p>
 
-# Solid Templates (using [vite](https://vitejs.dev/))
+# Solid Templates (using [vite](https://vitejs.dev/)) & Capacitor
 
 This repository holds most of the official starter templates for [vite](https://vitejs.dev/).
 
@@ -11,8 +11,13 @@ You get:
 - HMR out of the box
 - Minimal bundle size
 - All the vite features
+- A bootstrapped Capacitor project
+
+To see the official SolidJS templates, check out the [SolidJS Template Repo](https://github.com/solidjs/templates).
 
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+
+### Learn more on the [Capacitor Website](https://capacitorjs.com) and come chat with us on our [Discord](https://discord.gg/UPYYRhtyzp)
 
 ## Get started
 
@@ -24,64 +29,64 @@ These templates are meant to be used as is via the [degit](https://github.com/Ri
 
 ```bash
 # Javascript template
-$ npx degit solidjs/templates/js my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/js my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
 ```bash
 # Typescript template
-$ npx degit solidjs/templates/ts my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/ts my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
 ```bash
 # Typescript minimal template
-$ npx degit solidjs/templates/ts-minimal my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/ts-minimal my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
 ```bash
 # Typescript unocss template
-$ npx degit solidjs/templates/ts-unocss my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/ts-unocss my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
 ```bash
 # Typescript windicss template
-$ npx degit solidjs/templates/ts-windicss my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/ts-windicss my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
 ```bash
 # Typescript windicss template + basic file base routing
-$ npx degit solidjs/templates/ts-router my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/ts-router my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
 ```bash
 # Typescript bootstrap (5) template
-$ npx degit solidjs/templates/ts-bootstrap my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/ts-bootstrap my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
 ```bash
 # Typescript + tailwindcss template
-$ npx degit solidjs/templates/ts-tailwindcss my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/ts-tailwindcss my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
 ```bash
 # Typescript + sass template
-$ npx degit solidjs/templates/ts-sass my-solid-project
-$ cd my-solid-project
+$ npx degit ionic-team/capacitor-solidjs-templates/ts-sass my-project
+$ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
@@ -100,7 +105,3 @@ You can create your own template and prefix it with `ts-` or `js-` and giving it
 To update all dependencies you can run:
 
 `pnpm up -Lri`
-
-## Troubleshooting
-
-It appears that Webstorm generate some weird triggers when saving a file. In order to prevent that you can follow [this thread](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000154544-I-m-having-a-huge-problem-with-Webstorm-and-react-hot-loader-) and disable the **"Safe Write"** option in **"Settings | Appearance & Behavior | System Settings"**.

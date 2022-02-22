@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-solid",
+  "name": "capacitor-solid-template",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -9,12 +9,16 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@capacitor/cli": "^3.4.1",
     "sass": "^1.49.7",
     "typescript": "^4.5.5",
     "vite": "^2.8.0",
     "vite-plugin-solid": "^2.2.5"
   },
   "dependencies": {
+    "@capacitor/android": "^3.4.1",
+    "@capacitor/core": "^3.4.1",
+    "@capacitor/ios": "^3.4.1",
     "solid-js": "^1.3.7"
   }
 }
