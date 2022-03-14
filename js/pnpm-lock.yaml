@@ -5,20 +5,20 @@ specifiers:
   '@capacitor/cli': ^3.4.1
   '@capacitor/core': ^3.4.1
   '@capacitor/ios': ^3.4.1
-  solid-js: ^1.3.7
-  vite: ^2.8.0
-  vite-plugin-solid: ^2.2.5
+  solid-js: ^1.3.12
+  vite: ^2.8.6
+  vite-plugin-solid: ^2.2.6
 
 dependencies:
   '@capacitor/android': 3.4.1_@capacitor+core@3.4.1
   '@capacitor/core': 3.4.1
   '@capacitor/ios': 3.4.1_@capacitor+core@3.4.1
-  solid-js: 1.3.7
+  solid-js: 1.3.12
 
 devDependencies:
   '@capacitor/cli': 3.4.1
-  vite: 2.8.0
-  vite-plugin-solid: 2.2.5
+  vite: 2.8.6
+  vite-plugin-solid: 2.2.6
 
 packages:
 
@@ -1203,10 +1203,10 @@ packages:
       is-fullwidth-code-point: 3.0.0
     dev: true
 
-  /solid-js/1.3.7:
-    resolution: {integrity: sha512-YAz0NQhIZ8yCR2VZK8aMjNrWMU4gnmCgzqy7EpMF7WsyWV3PSoO3HvDs3kR75Ejk/a4ohfxQNiLhC9TOQltXSA==}
+  /solid-js/1.3.12:
+    resolution: {integrity: sha512-JnIoF5f40WR8LTEU1McFz/xVnXT3bGyBIme7gFbGj2ch6wXg+vcfbbhc2mz6YaLJIt8NEU+wAg8v+6SX3ZP9mA==}
 
-  /solid-refresh/0.4.0_solid-js@1.3.7:
+  /solid-refresh/0.4.0_solid-js@1.3.12:
     resolution: {integrity: sha512-5XCUz845n/sHPzKK2i2G2EeV61tAmzv6SqzqhXcPaYhrgzVy7nKTQaBpKK8InKrriq9Z2JFF/mguIU00t/73xw==}
     peerDependencies:
       solid-js: ^1.3.0
@@ -1214,7 +1214,7 @@ packages:
       '@babel/generator': 7.16.8
       '@babel/helper-module-imports': 7.16.7
       '@babel/types': 7.16.8
-      solid-js: 1.3.7
+      solid-js: 1.3.12
     dev: true
 
   /source-map-js/1.0.2:
@@ -1316,16 +1316,16 @@ packages:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
     dev: true
 
-  /vite-plugin-solid/2.2.5:
-    resolution: {integrity: sha512-SJkXdVnrPnhAWzs8Vi/+9oViUfx6TiQo8y1FFlDiyUdZR4nxTyGmRzz4xx+CC75GJL3hgDWac/zYA6sYq8SQAg==}
+  /vite-plugin-solid/2.2.6:
+    resolution: {integrity: sha512-J1RnmqkZZJSNYDW7vZj0giKKHLWGr9tS/gxR70WDSTYfhyXrgukbZdIfSEFbtrsg8ZiQ2t2zXcvkWoeefenqKw==}
     dependencies:
       '@babel/core': 7.16.12
       '@babel/preset-typescript': 7.16.7_@babel+core@7.16.12
       babel-preset-solid: 1.3.2_@babel+core@7.16.12
       merge-anything: 5.0.2
-      solid-js: 1.3.7
-      solid-refresh: 0.4.0_solid-js@1.3.7
-      vite: 2.8.0
+      solid-js: 1.3.12
+      solid-refresh: 0.4.0_solid-js@1.3.12
+      vite: 2.8.6
     transitivePeerDependencies:
       - less
       - sass
@@ -1333,8 +1333,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite/2.8.0:
-    resolution: {integrity: sha512-ed5rjyeysttuPJX/aKSA0gTB/8ZKLM5xF6FtEuKy1B9DiQbDNFMVMQxnb9JesgBPUMMIJxC8w5KZ/KNWLKFXoA==}
+  /vite/2.8.6:
+    resolution: {integrity: sha512-e4H0QpludOVKkmOsRyqQ7LTcMUDF3mcgyNU4lmi0B5JUbe0ZxeBBl8VoZ8Y6Rfn9eFKYtdXNPcYK97ZwH+K2ug==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:

@@ -1,5 +1,5 @@
 <p>
-  <img width="100%" src="https://raw.githubusercontent.com/ionic-team/capacitor-solidjs-templates//master/banner.png" alt="Solid And Capacitor Vite Templates">
+  <img width="100%" src="./banner.png" alt="Solid And Capacitor Vite Templates">
 </p>
 
 # Solid Templates (using [vite](https://vitejs.dev/)) & Capacitor
@@ -90,11 +90,25 @@ $ cd my-project
 $ npm install # or pnpm install or yarn install
 ```
 
+```bash
+# Typescript + vitest template
+$ npx degit solidjs/templates/ts-vitest my-solid-project
+$ cd my-solid-project
+$ npm install # or pnpm install or yarn install
+```
+
+```bash
+# Typescript + uvu template
+$ npx degit solidjs/templates/ts-uvu my-solid-project
+$ cd my-solid-project
+$ npm install # or pnpm install or yarn install
+```
+
 ## I don't see a template that matches my need?
 
 You wish there was a template with your favorite library?
 
-Feel free to make a pull request. Copy on of the template already available, tweak it, name it properly and make a PR. See [contributing](#contributing) below.
+Feel free to make a pull request. Copy one of the template already available, tweak it, name it properly and make a PR. See [contributing](#contributing) below.
 
 ## Contributing
 
