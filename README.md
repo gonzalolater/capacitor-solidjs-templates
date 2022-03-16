@@ -2,106 +2,124 @@
   <img width="100%" src="./banner.png" alt="Solid And Capacitor Vite Templates">
 </p>
 
-# Solid Templates (using [vite](https://vitejs.dev/)) & Capacitor
+# Capacitor Templates for [SolidJS](https://www.solidjs.com/) (and [vite](https://vitejs.dev/))
 
-This repository holds most of the official starter templates for [vite](https://vitejs.dev/).
+This repository holds production ready Capacitor templates for building native mobile applications using SolidJS + vite. Using Capacitor, you can quickly build out a native mobile application for iOS and Android using web technology, such as SolidJS.
 
-You get:
+## Getting Started
 
-- HMR out of the box
-- Minimal bundle size
-- All the vite features
-- A bootstrapped Capacitor project
+Be sure to follow our [getting started guide](https://capacitorjs.com/docs/getting-started) for Capacitor to setup your environment correctly. Once your environment is set up for mobile development, you can use [degit](https://github.com/Rich-Harris/degit) to clone one of these Capacitor templates and start building your native app with SolidJS!
 
-To see the official SolidJS templates, check out the [SolidJS Template Repo](https://github.com/solidjs/templates).
+When developing, you can use vite just as you would for a standard web application. For these templates, you can run `npm start` to boot up the vite dev server with Hot Module Replacement (HMR). Once you are ready to test your app on mobile, you can use one of the following commands to build and run your native app on your mobile device.
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
-
-### Learn more on the [Capacitor Website](https://capacitorjs.com) and come chat with us on our [Discord](https://discord.gg/UPYYRhtyzp)
-
-## Get started
-
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
-
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
-
-These templates are meant to be used as is via the [degit](https://github.com/Rich-Harris/degit) utility.
+#### iOS
 
 ```bash
-# Javascript template
-$ npx degit ionic-team/capacitor-solidjs-templates/js my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
+npm run build
+npx cap run ios
 ```
 
-```bash
-# Typescript template
-$ npx degit ionic-team/capacitor-solidjs-templates/ts my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
-```
+#### Android
 
 ```bash
-# Typescript minimal template
-$ npx degit ionic-team/capacitor-solidjs-templates/ts-minimal my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
+npm run build
+npx cap run android
 ```
 
-```bash
-# Typescript unocss template
-$ npx degit ionic-team/capacitor-solidjs-templates/ts-unocss my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
-```
+_note: The Capacitor + SolidJS dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`. This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. The `pnpn-lock.yaml` file can be safely be removed once you clone a template if you would like to use another package manager like `npm` or `yarn`._
+
+### Deploying to App Stores
+
+Once you are ready to deploy your app, you can follow our guides building your native application for the [Apple App Store](https://capacitorjs.com/docs/ios/deploying-to-app-store) or the [Google Play Store](https://capacitorjs.com/docs/android/deploying-to-google-play).
+
+## Template List
+
+#### Javascript template
 
 ```bash
-# Typescript windicss template
-$ npx degit ionic-team/capacitor-solidjs-templates/ts-windicss my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
+npx degit ionic-team/capacitor-solidjs-templates/js my-project
+cd my-project
+npm install # or pnpm install or yarn install
 ```
 
-```bash
-# Typescript windicss template + basic file base routing
-$ npx degit ionic-team/capacitor-solidjs-templates/ts-router my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
-```
+#### Typescript template
 
 ```bash
-# Typescript bootstrap (5) template
-$ npx degit ionic-team/capacitor-solidjs-templates/ts-bootstrap my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
+npx degit ionic-team/capacitor-solidjs-templates/ts my-project
+cd my-project
+npm install # or pnpm install or yarn install
 ```
 
-```bash
-# Typescript + tailwindcss template
-$ npx degit ionic-team/capacitor-solidjs-templates/ts-tailwindcss my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
-```
+#### Typescript minimal template
 
 ```bash
-# Typescript + sass template
-$ npx degit ionic-team/capacitor-solidjs-templates/ts-sass my-project
-$ cd my-project
-$ npm install # or pnpm install or yarn install
+npx degit ionic-team/capacitor-solidjs-templates/ts-minimal my-project
+cd my-project
+npm install # or pnpm install or yarn install
 ```
 
-```bash
-# Typescript + vitest template
-$ npx degit solidjs/templates/ts-vitest my-solid-project
-$ cd my-solid-project
-$ npm install # or pnpm install or yarn install
-```
+#### Typescript unocss template
 
 ```bash
-# Typescript + uvu template
-$ npx degit solidjs/templates/ts-uvu my-solid-project
-$ cd my-solid-project
-$ npm install # or pnpm install or yarn install
+npx degit ionic-team/capacitor-solidjs-templates/ts-unocss my-project
+cd my-project
+npm install # or pnpm install or yarn install
+```
+
+#### Typescript windicss template
+
+```bash
+npx degit ionic-team/capacitor-solidjs-templates/ts-windicss my-project
+cd my-project
+npm install # or pnpm install or yarn install
+```
+
+#### Typescript windicss template + basic file base routing
+
+```bash
+npx degit ionic-team/capacitor-solidjs-templates/ts-router my-project
+cd my-project
+npm install # or pnpm install or yarn install
+```
+
+#### Typescript bootstrap (5) template
+
+```bash
+npx degit ionic-team/capacitor-solidjs-templates/ts-bootstrap my-project
+cd my-project
+npm install # or pnpm install or yarn install
+```
+
+#### Typescript + tailwindcss template
+
+```bash
+npx degit ionic-team/capacitor-solidjs-templates/ts-tailwindcss my-project
+cd my-project
+npm install # or pnpm install or yarn install
+```
+
+#### Typescript + sass template
+
+```bash
+npx degit ionic-team/capacitor-solidjs-templates/ts-sass my-project
+cd my-project
+npm install # or pnpm install or yarn install
+```
+
+#### Typescript + vitest template
+
+```bash
+npx degit solidjs/templates/ts-vitest my-solid-project
+cd my-solid-project
+npm install # or pnpm install or yarn install
+```
+
+#### Typescript + uvu template
+
+```bash
+npx degit solidjs/templates/ts-uvu my-solid-project
+cd my-solid-project
+npm install # or pnpm install or yarn install
 ```
 
 ## I don't see a template that matches my need?
@@ -119,3 +137,7 @@ You can create your own template and prefix it with `ts-` or `js-` and giving it
 To update all dependencies you can run:
 
 `pnpm up -Lri`
+
+## Community
+
+You learn more about Capacitor on the [Capacitor Website](https://capacitorjs.com) and come chat with us the [Ionic Discord](https://discord.gg/UPYYRhtyzp) if you have any questions. For Solid questions, you can learn more on the [Solid Website](https://solidjs.com) and join the [SolidJS Discord](https://discord.com/invite/solidjs)
