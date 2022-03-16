@@ -8,7 +8,7 @@ This repository holds production ready Capacitor templates for building native m
 
 ## Getting Started
 
-Be sure to follow our [getting started guide](https://capacitorjs.com/docs/getting-started) for Capacitor to setup your environment correctly. Once your environment is set up for mobile development, you can use [degit](https://github.com/Rich-Harris/degit) to clone one of these Capacitor templates and start building your native app with SolidJS!
+Be sure to follow our [getting started guide](https://capacitorjs.com/docs/getting-started/environment-setup) for Capacitor to setup your environment correctly. Once your environment is set up for mobile development, you can use [degit](https://github.com/Rich-Harris/degit) to clone one of these Capacitor templates and start building your native app with SolidJS!
 
 When developing, you can use vite just as you would for a standard web application. For these templates, you can run `npm start` to boot up the vite dev server with Hot Module Replacement (HMR). Once you are ready to test your app on mobile, you can use one of the following commands to build and run your native app on your mobile device.
 
@@ -109,7 +109,7 @@ npm install # or pnpm install or yarn install
 #### Typescript + vitest template
 
 ```bash
-npx degit solidjs/templates/ts-vitest my-solid-project
+npx degit ionic-team/capacitor-solidjs-templates/ts-vitest my-solid-project
 cd my-solid-project
 npm install # or pnpm install or yarn install
 ```
@@ -117,7 +117,7 @@ npm install # or pnpm install or yarn install
 #### Typescript + uvu template
 
 ```bash
-npx degit solidjs/templates/ts-uvu my-solid-project
+npx degit ionic-team/capacitor-solidjs-templates/ts-uvu my-solid-project
 cd my-solid-project
 npm install # or pnpm install or yarn install
 ```
